@@ -1,0 +1,232 @@
+﻿======================= 
+=== [MRP Debug Log ]=== 
+======================= 
+ 
+Checking for OEM folder and structure... 
+OEM's folder structure appears to be correct. 
+ 
+Checking for CustomTheme... 
+CustomTheme was not defined. 
+ 
+Check Lock/Login screen variable state... 
+Lock/Login screen variable = Not used on Kernel: 6.1 
+ 
+==================================================== 
+===[ First selection of 'User' Options: Started ]=== 
+==================================================== 
+[007] Automatic or User set System Drive Partition Name. 
+[008] Internal Flag Variables Set. 
+[041] Set Control Panel's view to Category {Default}. 
+===================================================== 
+===[ First selection of 'User' Options: Finished ]=== 
+===================================================== 
+ 
+Transfer of Options to any new User accounts later was disabled. 
+ 
+Prechecks Done - Start Main Processing Section... 
+ 
+OS Installation Date/Time : 08/18/2021 {UTC} -- 5:38pm 
+MRP Version Installed     : CY20M03D12-R123.0.BL 
+MRP Config File Used      : N/A 
+ 
+Unicode Mode              : Operative 
+Original Codepage         : 720 
+  
+=================== 
+===[ Variables ]=== 
+=================== 
+Oobe State     : System Controlled 
+Install Type   : Client {Non Server} 
+PC System Type : Desktop {0x1} 
+Chassis Type   : 3 {Desktop} 
+Domain Detected: No 
+OS Full Name   : Microsoft Windows 7 Ultimate  
+OS Name {Reg}  : Windows 7 Ultimate 
+OS SKU Version : Ultimate {1} 
+OS Architecture: x64 {AR:1} 
+Edition {REG}  : Ultimate 
+Edition {OSED} : Ultimate 
+Edition {OM1}  : Ultimate 
+Edition {Type} : General 
+Build ID {R}   : 7601 
+Build ID {V}   : 7601 
+Reference Ver  : 6.1.7600.16385 
+RS3 Plus       : No 
+RS4 Plus       : No 
+RS5 Plus       : No 
+Language/Code  : en-US / 1033 {0x409h} 
+Locale         : English – United States 
+GeoID ISO Loc  : Egypt [67] 
+GeoID CUR Loc  : Egypt [67] 
+Time Zone Data : Egypt Standard Time 
+ 
+========================= 
+===[ Main Processing ]=== 
+========================= 
+Obtaining Motherboard information. 
+Checking for SLIC and MSDM tables. 
+ 
+================================ 
+===[ DMI/SMBIOS Information ]=== 
+================================ 
+CSNAME             : [G41MT-S2P] 
+SYSMODEL           : [G41MT-S2P] 
+CSVENDOR           : [Gigabyte Technology Co. Ltd.] 
+SYSMNF             : [Gigabyte Technology Co. Ltd.] 
+BASEMNF            : [Gigabyte Technology Co. Ltd.] 
+BASEPRO            : [G41MT-S2P] 
+ 
+BIOS or SLIC ID 1  : GBT    - 42302e31 
+SLIC Information   : No Valid SLIC Table Present 
+SLIC Detect Plan   : G2  
+MSDM Information   : No MSDM Table Present 
+ 
+ 
+Checking CPU and Memory information... 
+Checking number of CPU's fitted. 
+Checking CPU Max Clock Speed. 
+Checking CPU Cores. 
+Checking CPU Manufacturer. 
+Checking CPU Threads. 
+Checking CPU Name. 
+Checking CPU Description. 
+Checking CPU Datawidth, {Bits}. 
+Checking CPU ID. 
+Checking if CPU Virtualization mode is active or not. 
+  
+Checking Memory configuration. 
+Checking Memory Error Correction type. 
+Checking Memory Devices/Slots. 
+Checking Memory Max Capacity. 
+Total Memory - 1.97 MB 
+Used Memory  - 459.86 KB 
+Free Memory  - 1.52 MB [77.15%] 
+  
+Checking Meltdown/Spectre awareness. 
+  
+Show User Options display section. 
+Drive Label Section. 
+ 
+Checking for 'Retail.txt'. 
+The 'Retail.txt' file was not detected within the 'Scripts' folder. 
+ 
+Checking for 'ei.cfg'. 
+The 'ei.cfg' file was detected within the 'F:\x64\sources' folder. 
+ 
+Checking for 'Pid.txt'. 
+The 'PID.txt' file was not detected. 
+ 
+Querying DMI for any OEM brand information. 
+ 
+======================== 
+===[ DMI Processing ]=== 
+======================== 
+CSVENDOR           : DMI + Database = Possible Match [Gigabyte]. 
+ 
+No DMI conflicts found. 
+DMI query routine has completed. 
+ 
+ 
+Bypassed Virtual Machine data checks as DMI [Gigabyte] was detected.  
+ 
+No valid SLIC was found for OEM activation. 
+Gigabyte [#04] Manufacturer was detected for automated theme/branding. 
+No 'Man2' var set. 
+OEM SLP Key, Certificate and Activation Routine's will not be processed. Reason: No valid SLIC Table Detected. [NS] 
+BIOS defined 'G41MT-S2P' model name has been applied. 
+Theme Processing Routines. 
+User specified theme was not defined. 
+DMI theme 'Gigabyte' will be applied. 
+The registry tweak for 64 Bit OS branding has been applied. 
+Transfer Section. 
+The '$OEM$.theme' transferred to the 'C:\Windows\Resources\Themes' folder. {Ref: T3} 
+See the 'C:\MRP_Project.log' for more details of above sections. 
+Processing Brand/Theme Files Transfer Routines. 
+The '$OEM$.theme' transferred OK. {Ref: TF} 
+Theme files have been transferred. 
+Gigabyte OEM brand theme has been applied. 
+Checking for SetupComplete/FirstLogon files within the 'Scripts' folder... 
+SetupComplete.cmd was detected. 
+May cause malfunction of the project if deletion of the 'Scripts' folder is done within this file. 
+ 
+Option Utilization Started... 
+ 
+Control Panel Management Options. 
+Unpin Mail,Store, Taskview, PeopleBand and 'No Edit With Photos' Options, {if selected}. 
+Shortcut Arrow Design Option. 
+No Delete Confirm, No Shortcut Prefix, Show Extensions and Classic Menus Options. 
+Block 'CompatTelRunner.exe' via the Windows Firewall and disable any of its related tasks. {Ref:1} 
+ 
+Option Utilization Completed. 
+ 
+The branding script has completed, SetupComplete.cmd script will now be run via Windows Setup. 
+-------------------------------------------------------------------------------- 
+ 
+================================================================================ 
+========================[ Add-On Manager - Log Section ]======================== 
+================================================================================ 
+ 
+Edition Chk    : [Ultimate] {Ed0} 
+Edition Chk1   : [Ultimate] {Ed1} 
+Edition Chk2   : [Ultimate] {W2S} 
+Edition {Type} : [General] 
+Pre Windows 10 : [Yes] 
+Theme Reg Tweak: [Applied for build 7601] 
+Transfer Opts  : [No] 
+ 
+========================================== 
+===[ Built-In 'Administrator' Details ]=== 
+========================================== 
+Localized Name   : Administrator 
+Account Active   : No {Disabled} 
+Account Status   : Degraded 
+  
+ 
+====================================================== 
+===[ Bios Mode and OS Drive Partition Information ]=== 
+====================================================== 
+A-Routine BMode: [Legacy] 
+A-Routine DPart: [MBR] 
+WMIC BMode     : [Installable File System] 
+WMIC DPart     : [MBR] 
+SecureBoot     : [{X} N/A] 
+ 
+==================== 
+===[ Other Data [=== 
+==================== 
+AO1 Flags S1   : [DUT=0], [DWT=0], [DAT=0], [DPA=0], [DOU=0], [DSC=0], [DFL=0] 
+AO2 Flags S2   : [PRI=0], [A2B=0], [B2Z=0], [MKU=0], [OSP=0], [OPT=0] [OKF=0] 
+AO2 Flags S3   : [SEC=0] 
+ 
+First Tidy Up  : Started 
+First Tidy Up  : Used Files 
+First Tidy Up  : Used Environment Variables 
+First Tidy Up  : Completed 
+ 
+Detecting Activation Status... 
+Detecting Activation Status - Done. 
+Detecting License Channel Type... 
+Detecting License Channel Type... 
+Detecting License Channel Type - Done. Retail {CTT} 
+ 
+======================== 
+===[ License Status ]=== 
+======================== 
+License Status  : Out-of-Box Grace Allowance 
+Channel Status  : Retail {CTT} 
+6.0/6.1 Grace   : 30 days / 43200 minutes. 
+VL/KMS Capable  : Yes 
+Key Management  : No 
+Reason Code     : 0x4004F00C {Dec: 1074065420} 
+Reason Text     : Running within the valid grace allowance.  
+ 
+Final Tidy Up  : Started 
+Final Tidy Up  : Redundant Files 
+Final Tidy Up  : Redundant Environment Variables 
+Final Tidy Up  : Completed 
+ 
+Unicode Mode   : Deactivated 
+Orig Codepage  : 720 
+ 
+---------------------------------------------------------------------- 
+MRP's enhanced debug log has completed. 
